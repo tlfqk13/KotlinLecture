@@ -32,4 +32,5 @@ fun readFile(){
 
 fun readFile2(path:String){
     BufferedReader(FileReader(path)).use { reader-> println(reader.readLine()) }
+    // Closeable을 구현한 확장함수, inline 함수
 }
